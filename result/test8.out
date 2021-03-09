@@ -1,0 +1,25 @@
+Djikstra with Priority Queue:
+
+Negative weight detected at source: 2 to: 5. Dijkstra cannot be applied!
+
+Floyd Warshall:
+
+0 3 10 12 INF 9 
+INF 0 7 9 INF 6 
+INF INF 0 2 INF -1 
+INF INF INF 0 INF 5 
+INF 4 11 13 0 10 
+INF INF INF INF INF 0 
+
+time: 7994 ns
+
+Johnson:
+
+0 3 10 12 INF 9 
+INF 0 7 9 INF 6 
+INF INF 0 2 INF -1 
+INF INF INF 0 INF 5 
+INF 4 11 13 0 10 
+INF INF INF INF INF 0 
+
+time: 29568 ns
